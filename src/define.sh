@@ -276,7 +276,7 @@ getLanguage() {
       lang="Latvian"
       desc="$lang"
       culture="lv-LV" ;;
-    "nb" | "nb-"* |"nn" | "nn-"* | "no" | "no-"* )
+    "nb" | "nb-"* | "nn" | "nn-"* | "no" | "no-"* )
       short="no"
       lang="Norwegian"
       desc="$lang"
@@ -1074,6 +1074,7 @@ getLink3() {
       size=387424256
       sum="08b11c3897eb38d1e6566a17cec5cdf2b3c620444e160e3db200a7e223aabbd8"
       url="Windows_2000_SP4.iso"
+      ;;
   esac
 
   case "${ret,,}" in
@@ -1252,6 +1253,7 @@ getLink4() {
       size=386859008
       sum="e3816f6e80b66ff686ead03eeafffe9daf020a5e4717b8bd4736b7c51733ba22"
       url="MicrosoftWindows2000BuildCollection/5.00.2195.6717_x86fre_client-professional_retail_en-us-ZRMPFPP_EN.iso"
+      ;;
   esac
 
   case "${ret,,}" in
